@@ -120,10 +120,10 @@ export default function Home() {
                   Defense Startup Ecosystem
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  India's Rising Defense Tech Landscape
+                  India&apos;s Rising Defense Tech Landscape
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  The strategic push for self-reliance is transforming India's defense technology sector
+                  The strategic push for self-reliance is transforming India&apos;s defense technology sector
                 </p>
               </div>
             </div>
@@ -135,8 +135,8 @@ export default function Home() {
                 </div>
                 <h3 className="text-xl font-bold mb-2">₹1.5 Lakh Crore Market</h3>
                 <p className="text-muted-foreground">
-                  India's defense sector is projected to reach ₹1.5 lakh crore by 2025, with startups playing a crucial
-                  role in indigenous development.
+                  India&apos;s defense sector is projected to reach ₹1.5 lakh crore by 2025, with startups playing a
+                  crucial role in indigenous development.
                 </p>
               </div>
               <div className="bg-card/50 backdrop-blur-sm p-6 rounded-lg border border-border/40 shadow-sm hover:shadow-md transition-all">
@@ -166,7 +166,7 @@ export default function Home() {
                 <div className="p-8 flex flex-col justify-center">
                   <h3 className="text-2xl font-bold mb-4">Strategic Self-Reliance</h3>
                   <p className="text-muted-foreground mb-6">
-                    India's defense startup ecosystem is rapidly evolving, driven by the government's push for
+                    India&apos;s defense startup ecosystem is rapidly evolving, driven by the government&apos;s push for
                     Atmanirbhar Bharat (self-reliant India) in defense manufacturing. The Defense Ministry has set a
                     target of 70% self-reliance in weaponry by 2027, creating unprecedented opportunities for indigenous
                     innovation.
@@ -214,10 +214,10 @@ export default function Home() {
                   Our Mission
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Building India's Defense Tech Ecosystem
+                  Building India&apos;s Defense Tech Ecosystem
                 </h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Connecting investors, founders, advisors, and enthusiasts to accelerate innovation in India's defense
+                  Connecting investors, founders, advisors, and enthusiasts to accelerate innovation in India&apos;s defense
                   technology sector.
                 </p>
               </div>
@@ -232,7 +232,7 @@ export default function Home() {
                     <div>
                       <h3 className="text-xl font-bold">Community Network</h3>
                       <p className="text-muted-foreground">
-                        Connect with like-minded professionals dedicated to advancing India's defense capabilities.
+                        Connect with like-minded professionals dedicated to advancing India&apos;s defense capabilities.
                       </p>
                     </div>
                   </li>
@@ -399,10 +399,10 @@ export default function Home() {
           <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                Join India's Defense Tech Revolution
+                Join India&apos;s Defense Tech Revolution
               </h2>
               <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Be part of the community shaping the future of India's defense technology ecosystem.
+                Be part of the community shaping the future of India&apos;s defense technology ecosystem.
               </p>
             </div>
             <div className="flex flex-col gap-4 lg:justify-end">
@@ -440,7 +440,7 @@ export default function Home() {
               <span className="text-lg font-bold">Defense Tech Community</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Connecting India's defense tech ecosystem. © {new Date().getFullYear()} All rights reserved.
+              Connecting India&apos;s defense tech ecosystem. © {new Date().getFullYear()} All rights reserved.
             </p>
           </div>
           <div className="flex gap-4 text-sm text-muted-foreground">

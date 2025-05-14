@@ -565,7 +565,8 @@ export default function DirectoryPage() {
                             <span className="text-lg font-bold">Defense Tech Community</span>
                         </div>
                         <p className="text-sm text-muted-foreground">
-                            Connecting India's defense tech ecosystem. © {new Date().getFullYear()} All rights reserved.
+                            Connecting India&apos;s defense tech ecosystem. © {new Date().getFullYear()} All rights
+                            reserved.
                         </p>
                     </div>
                     <div className="flex gap-4 text-sm text-muted-foreground">
