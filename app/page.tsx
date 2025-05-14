@@ -1,46 +1,12 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Shield, Users, Database, Rocket, ChevronRight, Zap, Target, Award, TrendingUp } from "lucide-react"
+import { Users, Database, Rocket, ChevronRight, Zap, Target, Award, TrendingUp } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Page } from "@/components/common/Page"
 
 export default function Home() {
   return (
     <Page>
-      <header className="border-b border-border/40 backdrop-blur-sm sticky top-0 z-50">
-        <div className="container flex h-16 items-center justify-between px-4 md:px-6">
-          <Link href="/" className="flex items-center gap-2">
-            <Shield className="h-6 w-6 text-orange-500" />
-            <span className="text-lg font-bold">Defense Tech Community</span>
-          </Link>
-          <nav className="hidden md:flex gap-6">
-            <Link href="/" className="text-sm font-medium hover:text-orange-500 transition-colors">
-              Home
-            </Link>
-            <Link href="/directory" className="text-sm font-medium hover:text-orange-500 transition-colors">
-              Directory
-            </Link>
-            <Link href="#ecosystem" className="text-sm font-medium hover:text-orange-500 transition-colors">
-              Ecosystem
-            </Link>
-            <Link href="#about" className="text-sm font-medium hover:text-orange-500 transition-colors">
-              About
-            </Link>
-            <Link href="#contact" className="text-sm font-medium hover:text-orange-500 transition-colors">
-              Contact
-            </Link>
-          </nav>
-          <div className="flex items-center gap-4">
-            <Link
-              href="https://tally.so/r/mOg2pA"
-              target="_blank"
-              className="inline-flex h-9 items-center justify-center rounded-md bg-orange-600 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-orange-700 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-orange-700"
-            >
-              Join Community
-            </Link>
-          </div>
-        </div>
-      </header>
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-background to-background/80 relative overflow-hidden">
           <div className="absolute inset-0 bg-grid-white/[0.02] bg-[size:30px_30px] pointer-events-none"></div>
@@ -79,7 +45,7 @@ export default function Home() {
                 <div className="mt-6 flex items-center space-x-4 text-sm text-muted-foreground">
                   <div className="flex items-center">
                     <Users className="mr-1 h-4 w-4 text-orange-500" />
-                    <span>40+ Members</span>
+                    <span>300+ Members</span>
                   </div>
                   <div className="flex items-center">
                     <Target className="mr-1 h-4 w-4 text-orange-500" />
@@ -432,30 +398,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <footer className="border-t border-border/40 bg-background/90 backdrop-blur-sm">
-        <div className="container flex flex-col gap-4 py-10 md:flex-row md:items-center md:justify-between md:py-8 px-4 md:px-6">
-          <div className="flex flex-col gap-2">
-            <div className="flex items-center gap-2">
-              <Shield className="h-6 w-6 text-orange-500" />
-              <span className="text-lg font-bold">Defense Tech Community</span>
-            </div>
-            <p className="text-sm text-muted-foreground">
-              Connecting India&apos;s defense tech ecosystem. © {new Date().getFullYear()} All rights reserved.
-            </p>
-          </div>
-          <div className="flex gap-4 text-sm text-muted-foreground">
-            <Link href="#" className="hover:text-orange-500 transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="hover:text-orange-500 transition-colors">
-              Terms of Service
-            </Link>
-            <Link href="#" className="hover:text-orange-500 transition-colors">
-              Contact
-            </Link>
-          </div>
-        </div>
-      </footer>
     </Page>
   )
 }

@@ -320,31 +320,6 @@ export default function DirectoryPage() {
 
     return (
         <Page>
-            <header className="border-b border-border/40 backdrop-blur-sm sticky top-0 z-50">
-                <div className="container flex h-16 items-center justify-between px-4 md:px-6">
-                    <Link href="/" className="flex items-center gap-2">
-                        <Shield className="h-6 w-6 text-orange-500" />
-                        <span className="text-lg font-bold">Defense Tech Community</span>
-                    </Link>
-                    <nav className="hidden md:flex gap-6">
-                        <Link href="/" className="text-sm font-medium hover:text-orange-500 transition-colors">
-                            Home
-                        </Link>
-                        <Link href="/directory" className="text-sm font-medium hover:text-orange-500 transition-colors">
-                            Directory
-                        </Link>
-                        <Link href="/#ecosystem" className="text-sm font-medium hover:text-orange-500 transition-colors">
-                            Ecosystem
-                        </Link>
-                        <Link href="/#about" className="text-sm font-medium hover:text-orange-500 transition-colors">
-                            About
-                        </Link>
-                        <Link href="/#contact" className="text-sm font-medium hover:text-orange-500 transition-colors">
-                            Contact
-                        </Link>
-                    </nav>
-                </div>
-            </header>
             <main className="flex-1 py-6 md:py-10 relative">
                 <div className="absolute inset-0 bg-grid-white/[0.02] bg-[size:30px_30px] pointer-events-none"></div>
                 <div className="container px-4 md:px-6 relative z-10">
@@ -557,31 +532,6 @@ export default function DirectoryPage() {
                     )}
                 </div>
             </main>
-            <footer className="border-t border-border/40 bg-background/90 backdrop-blur-sm">
-                <div className="container flex flex-col gap-4 py-10 md:flex-row md:items-center md:justify-between md:py-8 px-4 md:px-6">
-                    <div className="flex flex-col gap-2">
-                        <div className="flex items-center gap-2">
-                            <Shield className="h-6 w-6 text-orange-500" />
-                            <span className="text-lg font-bold">Defense Tech Community</span>
-                        </div>
-                        <p className="text-sm text-muted-foreground">
-                            Connecting India&apos;s defense tech ecosystem. © {new Date().getFullYear()} All rights
-                            reserved.
-                        </p>
-                    </div>
-                    <div className="flex gap-4 text-sm text-muted-foreground">
-                        <Link href="#" className="hover:text-orange-500 transition-colors">
-                            Privacy Policy
-                        </Link>
-                        <Link href="#" className="hover:text-orange-500 transition-colors">
-                            Terms of Service
-                        </Link>
-                        <Link href="#" className="hover:text-orange-500 transition-colors">
-                            Contact
-                        </Link>
-                    </div>
-                </div>
-            </footer>
         </Page>
     )
 }
