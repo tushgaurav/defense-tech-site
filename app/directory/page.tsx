@@ -26,5 +26,7 @@ export default async function DirectoryPage() {
         expertiseAreas: response.domains_of_interest?.split(",") || [],
     })) || [];
 
+    console.log(formattedData);
+
     return <DirectoryContent initialMembers={formattedData} totalCount={count || 0} />;
 }
